@@ -43,9 +43,14 @@ SELECT name, city
 FROM Customers
 ORDER BY city;
 
-
- 
 -- Lấy top 10
 SELECT top (10) *
 FROM Customers
 ORDER BY city;
+--- Tìm khách hàng có tên Luyến
+
+SELECT  *
+FROM Customers
+ORDER BY city
+ where name='luyen';
+
