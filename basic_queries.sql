@@ -28,7 +28,14 @@ SELECT top (3) *
 FROM Customers
 ORDER BY city;
 
+
 -- Lấy city
 SELECT city
 FROM Customers
 ORDER BY city;
+
+-- Lấy tên
+SELECT name
+FROM Customers
+ORDER BY city;
+
