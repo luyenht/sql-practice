@@ -82,3 +82,14 @@ where cte.Cumedist_rank<=0.1
     where status='completed'
     group by  user_id
 )K        
+
+
+---version 3---
+
+SELECT 
+    c.CustomerName,
+    o.OrderDate,
+    o.Amount
+FROM Customers c
+INNER JOIN Orders o
+    ON c.CustomerID = o.CustomerID;
