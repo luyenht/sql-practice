@@ -26,3 +26,10 @@ where previousday is not null
 SELECT top (10) *
 FROM Customers
 ORDER BY city;
+
+--- version 3---
+
+-- Lấy tìm city
+SELECT * 
+FROM Customers
+where city='ninh bình';
