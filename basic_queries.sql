@@ -16,3 +16,8 @@ ORDER BY CustomerName;
 SELECT *
 FROM Customers
 ORDER BY city;
+
+-- Lấy top 3
+SELECT top (3) *
+FROM Customers
+ORDER BY city;
