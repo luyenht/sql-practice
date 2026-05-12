@@ -39,3 +39,8 @@ SELECT name
 FROM Customers
 ORDER BY city;
 
+ 
+-- Lấy top 10
+SELECT top (10) *
+FROM Customers
+ORDER BY city;
