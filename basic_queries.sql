@@ -7,6 +7,12 @@ SELECT *
 FROM Customers
 WHERE City = 'Hanoi';
 
+-- Lọc customer ở Ninh Bình
+SELECT *
+FROM Customers
+WHERE City = 'Ninh Bình';
+
+
 -- Sắp xếp theo tên
 SELECT *
 FROM Customers
