@@ -38,4 +38,9 @@ ORDER BY city;
 SELECT name
 FROM Customers
 ORDER BY city;
+-- Lấy tên, city
+SELECT name, city
+FROM Customers
+ORDER BY city;
+
 
