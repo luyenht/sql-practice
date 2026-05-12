@@ -42,10 +42,13 @@ ORDER BY city;
 SELECT name, city
 FROM Customers
 ORDER BY city;
-
-
  
 -- Lấy top 10
 SELECT top (10) *
 FROM Customers
 ORDER BY city;
+
+-- Lấy tìm city
+SELECT * 
+FROM Customers
+where city='ninh bình';
