@@ -19,3 +19,10 @@ Select *,
 
 from PREDAY
 where previousday is not null
+
+--- version 2---
+
+-- Lấy top 10
+SELECT top (10) *
+FROM Customers
+ORDER BY city;
