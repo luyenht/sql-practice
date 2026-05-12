@@ -11,3 +11,8 @@ WHERE City = 'Hanoi';
 SELECT *
 FROM Customers
 ORDER BY CustomerName;
+
+-- Sắp xếp theo city
+SELECT *
+FROM Customers
+ORDER BY city;
