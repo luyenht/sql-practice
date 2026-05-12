@@ -27,3 +27,8 @@ ORDER BY city;
 SELECT top (3) *
 FROM Customers
 ORDER BY city;
+
+-- Lấy city
+SELECT city
+FROM Customers
+ORDER BY city;
