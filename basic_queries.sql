@@ -42,13 +42,27 @@ ORDER BY city;
 SELECT name, city
 FROM Customers
 ORDER BY city;
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 7d23a55b2293bc2a703221e4f2c9a2511cedec95
 -- Lấy top 10
 SELECT top (10) *
 FROM Customers
 ORDER BY city;
+<<<<<<< HEAD
 
 -- Lấy tìm city
 SELECT * 
 FROM Customers
 where city='ninh bình';
+=======
+--- Tìm khách hàng có tên Luyến
+
+SELECT  *
+FROM Customers
+ORDER BY city
+ where name='luyen';
+
+>>>>>>> 7d23a55b2293bc2a703221e4f2c9a2511cedec95
