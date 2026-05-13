@@ -33,3 +33,11 @@ ORDER BY city;
 SELECT * 
 FROM Customers
 where city='ninh bình';
+
+-- Version 4---
+--- Tìm khách hàng có tên Luyến
+
+SELECT  *
+FROM Customers
+ORDER BY city
+ where name='luyen';
