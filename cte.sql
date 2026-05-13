@@ -41,3 +41,10 @@ SELECT  *
 FROM Customers
 ORDER BY city
  where name='luyen';
+ 
+ 
+ -- Version 5---
+---Đếm số lượng khách hàng--- 
+
+SELECT  count(*)
+FROM Customers
